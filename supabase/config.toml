@@ -1,0 +1,79 @@
+project_id = "qexrtwczwefuhacqwqjt"
+
+[functions.batch-update-orders]
+verify_jwt = true
+
+[functions.whatsapp-chatbot]
+verify_jwt = false
+
+[functions.get-customers-count]
+verify_jwt = false
+
+[functions.send-welcome-email]
+verify_jwt = false
+
+[functions.get-stripe-connect-url]
+verify_jwt = true
+
+[functions.create-stripe-account]
+verify_jwt = true
+
+[functions.test-stripe-connect]
+verify_jwt = true
+
+[functions.create-subscription-checkout]
+verify_jwt = true
+
+[functions.check-subscription]
+verify_jwt = true
+
+[functions.customer-portal]
+verify_jwt = true
+
+[functions.create-payment-intent]
+verify_jwt = true
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.stripe-connect-webhook]
+verify_jwt = false
+
+[functions.whatsapp-webhook]
+verify_jwt = false
+
+[functions.stripe-subscription-webhook]
+verify_jwt = false
+
+[functions.whatsapp-unified-handler]
+verify_jwt = true
+
+[functions.reverse-geocode]
+verify_jwt = false
+
+[functions.enhanced-notification-processor]
+verify_jwt = true
+
+[functions.establishment-search]
+verify_jwt = false
+
+[functions.product-search]
+verify_jwt = false
+
+[functions.home-search]
+verify_jwt = false
+
+[functions.location-based-search]
+verify_jwt = false
+
+[functions.sales-analytics]
+verify_jwt = true
+
+[functions.send-order-notification]
+verify_jwt = true
+
+[functions.send-order-status-notification]
+verify_jwt = true
+
+[functions.confirm-email]
+verify_jwt = false
